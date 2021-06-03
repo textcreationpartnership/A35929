@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="http://www.textcreationpartnership.org/docs/code/pfs.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Diary of the siege and surrender of Lymerick with the articles at large, both civil and military.</title>
+         </titleStmt>
+         <extent>Approx. 83 KB of XML-encoded text transcribed from 20 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2016-02">2016-02 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A35929</idno><idno type="EEBO-CITATION">11080868</idno>
+  <idno type="VID">46288</idno>
+  <idno type="EEBO-PROQUEST">2240873991</idno>
+  
+            <idno type="STC">Wing D1375</idno>
+            <idno type="STC">ESTC R29362</idno>
+            <idno type="OCLC">11080868</idno>
+            <availability><p>This keyboarded and encoded edition of the work described above is co-owned by the
+    institutions providing financial support to the Early English Books Online Text Creation
+    Partnership. This text is available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/"> Creative Commons 0 1.0 Universal
+    licence</ref>. The text can be copied, modified, distributed and performed, even for commercial
+    purposes, all without asking permission.</p></availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt><relatedItem type="facs" target="https://data.historicaltexts.jisc.ac.uk/view?pubId=eebo-e"/>
+            <note>(EEBO-TCP ; phase 2, no. A35929)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 46288)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1422:9)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A Diary of the siege and surrender of Lymerick with the articles at large, both civil and military.</title>
+               </titleStmt>
+               <extent>12, 23 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Robert Thornton and are to be sold by the booksellers,</publisher>
+                  <pubPlace>Dublin :</pubPlace>
+                  <date>1692.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>"Published by authority."</note>
+                  <note>"The civil articles of Lymerick" and "The military articles of Lymerick" have special t.p.s and separate pagination.</note>
+                  <note>Reproduction of original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Full documentation of the original data capture process is available from the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.
+   All versions of the texts are now archived and freely available for download. See <ref target="https://textcreationpartnership.org/faq/#faq05">the TCP Download FAQ</ref>
+   for detailed information. The TEI P5 versions are also freely available from the <ref target="https://github.com/textcreationpartnership">TCP Github repository</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp" matchPattern="([0-9\-]+):([0-9IVX]+)" replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char" matchPattern="(.+)" replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term type="geographic_name">Ireland --  History --  War of 1689-1691.</term>
+               <term type="geographic_name">Great Britain --  History --  William and Mary, 1689-1702.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-07 </date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images </change>
+         <change>
+            <date>2015-02 </date>
+            <label>John Latta </label>Sampled and proofread </change>
+         <change>
+            <date>2015-02 </date>
+            <label>John Latta</label>Text and markup reviewed and edited </change>
+         <change>
+            <date>2015-03 </date>
+            <label>pfs</label>Batch review (QC) and XML conversion </change>
+      <change><date>2021-05 </date><label>lb</label>TEI P5 conversion </change></revisionDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text xml:lang="eng">
+            <front>
+               <div type="title_page">
+                  <pb facs="tcp:46288:1"/>
+                  <p>A DIARY OF THE Siege &amp; Surrender of Lymerick: With The ARTICLES At LARGE: Both Civil and Military.</p>
+                  <q>
+                     <floatingText xml:lang="eng">
+                        <body>
+                           <div type="license">
+                              <p>
+                                 <hi>Published by Authority.</hi>
+                              </p>
+                           </div>
+                        </body>
+                     </floatingText>
+                  </q>
+                  <p>
+                     <hi>DUBLIN,</hi> Printed by <hi>Robert Thornton,</hi> and are to be Sold by the Booksellers. 1692.</p>
+               </div>
+               <div type="publisher_to_the_reader">
+                  <pb facs="tcp:46288:2"/>
+                  <pb facs="tcp:46288:2"/>
+                  <head>THE PUBLISHER To the READER.</head>
+                  <p>THE following <hi>Series,</hi> being a faithful <hi>DIARY</hi> of every days <hi>Motions</hi> and <hi>Measures,</hi> throughout the Siege of <hi>Lymerick,</hi> to the last finishing <hi>Articles,</hi> both <hi>Civil</hi> and <hi>Military,</hi> past upon the <hi>Surrender</hi> of it; I hope will be no unacceptable Present to the Rea-Reader.</p>
+                  <p>The time (I confess) has been, when this <hi>Treatise</hi> would have been a more popular <hi>Theam:</hi> The Articles of the <hi>Surrender</hi> of <hi>Lymerick,</hi> being, not long since, the Subject of no common Longings and Curiosity. <hi>Upon</hi> perusal of which, the <hi>Reader,</hi> (I am certain,) will joyn with me in this one just Remark; That in all the Glories of our deser<g ref="char:EOLhyphen"/>vingly Great Monarch, <hi>Mercy</hi> is one of his most Shining Titles; His Enemies have met that both unexpected and unmerited Cle<g ref="char:EOLhyphen"/>mency in his Majesties most Gracious Concessions towards them, that plainly tells the World, the whole business of his Arms was to <hi>Re<g ref="char:EOLhyphen"/>claim,</hi> not <hi>Vanquish:</hi> He infringes not <hi>Liberty,</hi> even where he makes <hi>Subjection.</hi>
+                  </p>
+                  <p>There is one farther Recommendation to our short (but Glorious) History, <hi>viz.</hi> That what I here present you, is the Work of <hi>English Hands;</hi> And that, without a Vanity, the whole Progress of the late <hi>English</hi> Arms in <hi>Ireland,</hi> has as much Signaliz'd the <hi>True British Valour,</hi> as any of the <hi>Antiquer Monuments</hi> of our Remoter Recor<g ref="char:EOLhyphen"/>ded Predecessors. And indeed, to Crown all these Glorious Successes, there seems to be a continued chain of Providences attending that whole <hi>Expedition;</hi> For, not to Instance his Majesties prodigious Vi<g ref="char:EOLhyphen"/>ctory at the <hi>Boyn,</hi> with which all Tongues have been already employed; together, with that Famous Battel at <hi>Aghrim,</hi> where Fortune, for some hours, stood dubious; and indeed, the whole <hi>Conduct</hi> and <hi>Zeal</hi>
+                     <pb facs="tcp:46288:3"/>of the Renown'd General <hi>Ginckle,</hi> who challenges our no common Applause and Veneration: Perhaps nothing was more remarkably sig<g ref="char:EOLhyphen"/>nal, than the Siege of <hi>Athlone,</hi> affording (possibly) one of the fairest Lawrels through that whole Scene of <hi>British Glory.</hi> For, when af<g ref="char:EOLhyphen"/>ter our possession of the hither part of the Town, the Enemy (who had broken down the Bridge) had so often burnt our <hi>Fascines,</hi> and so resolutely oppos'd our passage that way; insomuch, that the <hi>General,</hi> despairing of approaching on that side, had resolved to draw off, and pass the <hi>Shannon</hi> higher above the Town (though so late in the year, and the <hi>Summer</hi> so far advanc'd) to begin a new <hi>Siege</hi> on the other side, in the face of the <hi>Irish Army</hi> that lay incampt there: It was, (I say) <hi>Major</hi> (now <hi>Lieutenant</hi>) <hi>General Talmashe's</hi> Proposal, at a Council of War, (in which he very hardly prevailed) to head, as a <hi>Volunteer,</hi> a select Party of <hi>1500,</hi> and wade the River to enter the Breach: Which he executed with that <hi>Celerity</hi> and <hi>Courage,</hi> that the <hi>Storming</hi> and <hi>Taking</hi> of that <hi>Important Place,</hi> was an Action unprecedented, and inimitable: With so poor a handful, to <hi>push</hi> so bold a Sword, and <hi>carry</hi> so entire a <hi>Victory</hi> against so great a Strength within, and the whole <hi>Irish Army</hi> but an hours march without, was an Enterprise so hardy (and that so purely and wholly his <hi>own,</hi>) that Posterity will read it with Wonder: And which, to his lasting Fame, will supply as gallant a Memorial, as ever adorn'd the <hi>English Annals.</hi>
+                  </p>
+                  <p>And as the early Conquest of that Garrison (which was the <hi>Key,</hi> that soon after open'd the Gates of <hi>Gallway</hi> and <hi>Lymerick;</hi> and consequently promoted the Expeditious Reduction of <hi>Ireland,</hi> so high<g ref="char:EOLhyphen"/>ly, both to the <hi>English Glory,</hi> His <hi>Majesty's Interest,</hi> and the <hi>Ad<g ref="char:EOLhyphen"/>vantage</hi> of <hi>Christendom,</hi>) was so much owing to that memorable Action; I may justly say, That what-ever other hands joyn'd in the <hi>Accomplishing,</hi> the only hand that <hi>shorten'd</hi> the <hi>Great WORK,</hi> was <hi>Talmashe</hi>'s; and 'twas by his <hi>Conduct</hi> and <hi>Gallantry,</hi> in that <hi>Eminent Service,</hi> That <hi>91</hi> saw <hi>That</hi> Finish'd, which otherwise had been the Subject of a longer, (if not a more hazardous) Dispute.</p>
+               </div>
+            </front>
+            <body>
+               <div type="diary">
+                  <pb n="1" facs="tcp:46288:3"/>
+                  <head>A DIARY OF THE Siege of LYMERICK.</head>
+                  <p>
+                     <label>
+                        <hi>August.</hi> 1691.</label> THe General having resolv'd on the Forming of the Siege of <hi>Lymerick,</hi> and in order thereunto, having given Orders for Captain <hi>Coale,</hi> with his Squadron, to sail down the <hi>Shannon,</hi> and for the immediate March<g ref="char:EOLhyphen"/>ing of <hi>Twenty Six</hi> whole Cannon, Mortars, <hi>&amp;c.</hi> from <hi>Athlone,</hi> to meet him there. <label>3d.</label> On the <hi>Third</hi> of <hi>August</hi> the whole Army passed the <hi>Shannon</hi> at <hi>Bana<g ref="char:EOLhyphen"/>har</hi>-Bridge, and came the same Night to <hi>Birr,</hi> (which place is distant from <hi>Lyme<g ref="char:EOLhyphen"/>rick</hi> Thirty Miles.) The General having receiv'd an Account by Deserters, <hi>That Brigadier</hi> Carrol <hi>was posted with a Party of</hi> Irish, <hi>at a Place called</hi> Nenagh, <hi>which is a Pass Fourteen Miles from</hi> Lymerick, gave Orders to Brigadier <hi>Levison,</hi> with a detatched Party, to go and Attack the said place; who marched from the Camp early this morning, with <hi>Five Hundred</hi> Horse and Dragoons.</p>
+                  <p>
+                     <label>4th.</label> Brigadier <hi>Levison,</hi> with his Party, got yesterday in the Evening to <hi>Nenagh;</hi> at whose approach the Governour <hi>Carrol</hi> set the Town on fire, and then quitted it in great haste; but the fire was soon put out by Eleven of our Men, who happened to be Prisoners there, and were left behind.</p>
+                  <p>
+                     <label>5th.</label> This day we marched from <hi>Birr,</hi> and marched to a place called <hi>Burraskeen,</hi> where we Encamped the same night.</p>
+                  <p>
+                     <label>6th.</label> This Evening we reached <hi>Nenagh:</hi> Here we received an Account, That Briga<g ref="char:EOLhyphen"/>dier <hi>Levison,</hi> with his Horse and Dragoons, pursued <hi>Carrol</hi> and his Party so closely, and so far, that within four miles of <hi>Lymerick</hi> he took all their Baggage, amongst which were two rich Coats of long <hi>Anthony Carrol</hi>'s, one valued at Eighty Pounds, the other at forty Guinea's, and about forty Pistoles in Gold; as also four hun<g ref="char:EOLhyphen"/>dred and fifty Head of large black Cattel, and some Sheep, which the Enemies sudden flight would not suffer them to carry off:</p>
+                  <p>
+                     <label>7th.</label> This morning a Party marched from the Camp towards <hi>Killaloo,</hi> in search for <hi>Rebels,</hi> who killed two, and took about nine Prisoners, which were all of the Ene<g ref="char:EOLhyphen"/>my they could meet with; and in the evening returned to the Camp with a great Prey of Cattel.</p>
+                  <p>
+                     <label>8th.</label> Some Pioneers, under the Convoy of a good Party of Horse and Dragoons, marched this morning towards the Silver Mines, to mend the Roads for our Car<g ref="char:EOLhyphen"/>riages. A Brigadier, and two of the late King <hi>James</hi>'s Horse-Guards, who de<g ref="char:EOLhyphen"/>serted the Enemy, came into the Camp with their Horses and Accoutrements, and advised us, <hi>That the Enemy were Intrenching themselves near</hi> Carrick-I<gap reason="illegible: faint" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>lish.</p>
+                  <p>
+                     <label>9th.</label> Lieutenant Colonel <hi>Oxborough,</hi> with a Lieutenant, their Servants and Accoutre<g ref="char:EOLhyphen"/>ments, came over to us from the Enemy this day; as also did another Officer and eleven Musqueteers, with their Arms. A Man and Woman were this day hanged
+<pb n="2" facs="tcp:46288:4"/>in the Camp; the Man for Robbing, and the Woman for Murthering one of our Soldiers near <hi>Galway.</hi> Mr. <hi>Richards,</hi> Secretary and Adjutant-General to <hi>Balda<g ref="char:EOLhyphen"/>rick O Donnel,</hi> who had been with the General in the Camp four of five days, went hence this day for <hi>Dublin,</hi> to confer with the Lords Justices.</p>
+                  <p>
+                     <label>10th.</label> Several considerable Deserters came into our Camp this day, from the Enemies Quarters; they gave us an account. That both <hi>French</hi> and <hi>Irish</hi> were mightily surprized to find our Ships in the <hi>Shannon,</hi> having been possess'd, That the <hi>French</hi> were Masters at Sea, and that we durst not adventure so far.</p>
+                  <p>
+                     <label>11th.</label> This morning we decamped from <hi>Nenagh,</hi> and the same night we came to a Place called <hi>Shalley,</hi> about two miles from the Silver-Mines, a very wild part of the Countrey.</p>
+                  <p>
+                     <label>12th.</label> This day we marched again, and came to a small Village called <hi>Tulla;</hi> here we incamp'd, and lay till the 13th, <label>13th.</label> on which day we decamp'd, and came that day to <hi>Carick-Inlish,</hi> which is situate about four miles from <hi>Lymerick.</hi>
+                  </p>
+                  <p>
+                     <label>14th.</label> This day the General went out of the Camp, at the head of fifteen hundred de<g ref="char:EOLhyphen"/>tached Horse and Dragoons, advancing with them within sight of <hi>Lymerick,</hi> and having beaten in the Enemies Out-Guards, took a View of their Works from the Hill where our Artillery Encamped the last year: In the evening the Gene<g ref="char:EOLhyphen"/>ral returned again to the Camp.</p>
+                  <p>
+                     <label>15th.</label> This day several Deserters came over to us, and confirmed an Account we had before receiv'd, That <hi>Sarsfield</hi> with the Enemies Horse, was retired to the other side of the <hi>Shannon,</hi> being Encamp'd in the County of <hi>Clare,</hi> about four miles above <hi>Lymerick;</hi> and that their Foot were drawn in within their Retrenchments: They inform'd us likewise, That the Earl of <hi>Tyrconnel</hi> was very ill, and had re<g ref="char:EOLhyphen"/>ceiv'd the <hi>Extream Ʋnction.</hi>
+                  </p>
+                  <p>
+                     <label>16th.</label> This Afternoon Sir <hi>John Hanmore,</hi> with five Regiments of Foot from <hi>Cork</hi> and the Neighbouring Gatrisons, joyned us. Major General <hi>In Forest</hi> marched out of the Camp this day with a strong detachment of Horse and Foot, towards <hi>Athlone,</hi> to meet that part of our Artillery that were coming from thence, under the Convoy of Colonel <hi>Lloyd</hi>'s Regiments; which consisted of Nine Twenty Four Pounders, Nine Eighteen Pounders, and Four large Mortars, (being an Ad<g ref="char:EOLhyphen"/>dition to the Train of Artillery we brought with us from <hi>Galway.</hi>)</p>
+                  <p>
+                     <label>17th.</label> This morning three Deserters came into our Camp, and brought us the follow<g ref="char:EOLhyphen"/>lowing Accounts; That the Earl of <hi>Tyrconnel</hi> dyed on the 14th, the ill Condition of the <hi>Irish</hi> Affairs having broke his Heart; That he was Buried at <hi>Lymerick</hi> on the 16th, and that a Commission was produced from the late King, which Mr. <hi>Plowden</hi> (formerly one of the Commissioners of the Revenue of <hi>Ireland</hi>) brought lately from <hi>France,</hi> appointing Sir <hi>Alexander Fitton,</hi> Sir <hi>Richard Neagle,</hi> and the said <hi>Plowden,</hi> Justices of <hi>Ireland.</hi>
+                  </p>
+                  <p>
+                     <label>18th.</label> We had an Account this day, That Colonel <hi>Henry Lutterel</hi> had been lately sei<g ref="char:EOLhyphen"/>zed at <hi>Lymerick,</hi> by Order of the <hi>French</hi> Lieutenant-General <hi>d'Ʋssone,</hi> for having made some <hi>Proposals</hi> for a Surrender of the Place, and that he was Sentenced by a <hi>Court-Marshal</hi> to be Shot; upon which the General sent them word by a <hi>Trum<g ref="char:EOLhyphen"/>pet,</hi> That if they put any man to death, for having a mind to come over to us, he would revenge it on the <hi>Irish.</hi>
+                  </p>
+                  <p>
+                     <label>19th.</label> This day several notorious Rapparees were brought Prisoners into our Camp. It Rained very hard this day, as it likewise did for several days past, which very much detarded the March of the Artillery in their way from <hi>Athlone.</hi>
+                  </p>
+                  <pb n="3" facs="tcp:46288:4"/>
+                  <p>
+                     <label>
+                        <hi>Aug.</hi> 20. 1691.</label> This afternoon two Troopers of the late Earl of <hi>Tyrconnel</hi>'s Regiment, and a Dragoon, deserted the Enemy, and came over to us.</p>
+                  <p>
+                     <label>21st.</label> Major <hi>O Connor,</hi> who was Governour of <hi>Banahar,</hi> and Surrendred it on Con<g ref="char:EOLhyphen"/>dition of marching out with his Men, hath since been in <hi>Lymerick,</hi> and upon view of the condition of that Place, and consideration of the Wants of the <hi>Irish,</hi> and their impending Ruine, came over to us this day; also Nine more of the <hi>Irish</hi> Army, well Mounted and Equipped, came over to us. This day there came into our Camp <hi>Twenty Nine Tin-Boats,</hi> which were brought from <hi>Athlone</hi> to <hi>Killaloo</hi> by Water. Colonel <hi>Lumly,</hi> who had been abroad as far as <hi>Charleville,</hi> with a good Party of Horse and Dragoons, returned again this Evening with a Prey of <hi>Two Hundred and fifty Black Cattel, Three Hundred Sheep, and some Horses.</hi>
+                  </p>
+                  <p>
+                     <label>22d.</label> Our men were employed all this day in cutting of Fascines, and in making other necessary Preparations for the Siege of <hi>Lymerick,</hi> wither the excessive Rains, lately fallen, still obstructed our March, as also the coming up of our Cannon and Mortars, which, we were advised, were last night near <hi>Birr.</hi>
+                  </p>
+                  <p>
+                     <label>23d.</label> One <hi>Sheldon,</hi> a Lieutenant in the <hi>Irish</hi> Royal Regiment, and one <hi>Dowdal,</hi> an <hi>Irish</hi> Councellor, made their Escape from the Enemy this day, and came over to us.</p>
+                  <p>
+                     <label>24th,</label> To prevent the Abuses committed by Sutlers, who had, about this time exces<g ref="char:EOLhyphen"/>sively raised the Rate of Bread and Drink, the General this day Published an Order, and thereby settled the Price of all manner of Provisions in the Camp, and forbidding all Persons to exceed the Rates so settled, on pain of forfeiting their Goods, and suffering a months Imprisonment. Two Rapparees were this day hanged, being Convicted by a Court-Martial, for burning of Houses. Two of Sir <hi>John Lanier</hi>'s Troopers, and a <hi>North-Countrey Sutler,</hi> were likewise Con<g ref="char:EOLhyphen"/>demned: The two first, for Robbing Captain <hi>Watts,</hi> an Officer in the same Regi<g ref="char:EOLhyphen"/>ment; and the other for buying the Captain's Watch, which was stoln, and sold to him by the Troopers.</p>
+                  <p>
+                     <label>25th.</label> The General having sent out Major <hi>Slundt</hi> with Two Hundred and Fifty fresh Draught-Horses to hasten the coming up of our Guns, <hi>&amp;c.</hi> and ordered our Ships in the <hi>Shannon</hi> to come nearer <hi>Lymerick;</hi> and being himself, as well as the whole Army, very impatient in lying here, gave Orders last night for our March; pursuant to which, about five this morning we decamped, and all moved towards <hi>Lymerick,</hi> except two Regiments of Foot, and an hundred Horses, which remain'd in our Camp as a Rear-Guard, for the Security of our Tin-Boats, and the rest of our Artillery, <hi>&amp;c.</hi> as also to wait for Major General <hi>la Farets</hi> coming up with our heavy Cannon, Mortars, <hi>&amp;c.</hi> who last night encamped within four miles of us. By three this afternoon we came before two of the Enemies Out-Forts, the one an old Church, the other <hi>Cromwel's,</hi> or rather <hi>Ireton</hi>'s Fort, the latter well for<g ref="char:EOLhyphen"/>tified with a very good Ditch, and Lines of Communication with the Town, and both well Manu'd; in the former, were 500 Musketeers, but neither of them gave us much trouble, the Garrisons in both running away upon our Advance. On the Left of our Army was a very good Fort built last Winter, guarded by 600 men, which was bravely Attacqu'd by 80 of our <hi>English</hi> Granadiers, who receiving a Volley of their Shot, with small Damage, mounted the Works, and carry'd the Place, and drove the Enemy into the cover'd Way they had from the Fort to the Town; our men (having received another Volley) pursued them to their next Out-Warks to the Town, and in this Action kill'd near 100, and took
+<pb n="4" facs="tcp:46288:5"/>sixteen Prisoners. Colonel <hi>Donep</hi> of the <hi>Danish</hi> Horse, who commanded our advance Party of Horse, was slain by a chance Cannon-Shot. The General ex<g ref="char:EOLhyphen"/>pecting the Enemy would make a Salley, commanded the Troopers should lie all night at their Horses heads.</p>
+                  <p>
+                     <label>26th.</label> This afternoon our Cannon and Mortars, with 800 Carts of Ball and Bombs, and 800 Barrels of Powder, arrived here from <hi>Athlone.</hi> This night we broke Ground, and began to work on our Lines of Communication, making our Ap<g ref="char:EOLhyphen"/>proaches with very small loss.</p>
+                  <p>
+                     <label>27th.</label> Early this morning the Prince <hi>Darmstadt,</hi> with his own, Colonel <hi>Tiffin</hi>'s, and Colonel <hi>St. John's</hi> Regiments of Foot, and about 700 Horse, marched hence to reduce <hi>Castle-Connel,</hi> where the Enemy had a very good Garrison. Another Party marched hence with four Guns, to take in two or three Castles, which the Ene<g ref="char:EOLhyphen"/>my had Garrison'd down the River. This Night the Enemy Fired so hard from two Guns they had drawn below the Town on our left, that it obliged our men to move a little further off till they could be better secured. This morning Or<g ref="char:EOLhyphen"/>ders were given for fitting 1000 Hand-Granadoes and 600 Bombs, to be ready against Eight at Night. This Day our Fleet, which were ordered from <hi>Galway,</hi> being about 18 Sail, under the Command of Captain <hi>Coal,</hi> came up the <hi>Shannon</hi> towards the Town, firing so briskly as they passed by the Enemies Camp at <hi>Crai<g ref="char:EOLhyphen"/>
+                        <gap reason="illegible: blotted" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>alough,</hi> that they made many of them run to the Adjacent Hills: Our Ships came to an Anchor about three miles below the Town.</p>
+                  <p>
+                     <label>28th.</label> This morning the General went on Board the Fleet, but staid not long there: The Weather about this time began to be pretty good. <hi>Carrick Gunnel</hi> Castle, whose Garrison was 130 men, and two Captains, commanded by one <hi>Archbold,</hi> surrendred upon Mercy, and the Prisoners were immediately put into the Pro<g ref="char:EOLhyphen"/>vo's Custody; and this night was surrendred likewise the Castle of <hi>Ballycullare,</hi> and another strong Castle on the <hi>Shannon;</hi> in all the several Castles we took about 900 Prisoners. Our men were very busie all this day on our Line of Communi<g ref="char:EOLhyphen"/>cation. This morning our light Frigats came and Anchored within sight of the Town, Captain <hi>Coal</hi> lying with the rest about six miles off: The <hi>Irish,</hi> upon the first approach of them, expressed a mighty Joy, believing them to be <hi>French;</hi> and were as much troubled, when they found their mistake.</p>
+                  <p>
+                     <label>29th.</label> This morning our Ships began to unload Ammunition, <hi>&amp;c.</hi> This evening our Line of Communication was finished, the Guns and Mortars were drawn down and mounted thereon; and this night about Eleven, our Mortars began to play, and threw above a hundred Bombs and Carcasses into the Town; which, besides their other Execution, fired the Town in three several places. Upwards of 400 Prisoners, taken in the three several places before mentioned, were this day sent hence to <hi>Clonmel,</hi> under a good guard of Horse and Dragoons. About <hi>Ten</hi> this Night, (to encourage the Foot, and to prevent their being too much Fateigu'd) six hundred Troopers on foot, were Commanded down to the Trenches, to raise another Battery, much nearer to the Town than the first.</p>
+                  <p>
+                     <label>31th.</label> Early this morning the Troopers had finished their Battery. About <hi>Two</hi> this morning, a Body of Four Hundred Horse and Dragoons, Commanded by Briga<g ref="char:EOLhyphen"/>dier <hi>Levison,</hi> went hence towards the County of <hi>Kerry.</hi> About <hi>Eleven</hi> of the Clock we played from our New Battery. This night <hi>Two Hundred</hi> of the <hi>Prote<g ref="char:EOLhyphen"/>stant</hi> Inhabitants of <hi>Lymerick</hi> or thereabouts, most of them Women and Chil<g ref="char:EOLhyphen"/>dren, were brought off from an Island in the <hi>Shannon,</hi> where the <hi>Irish</hi> detained
+<pb n="5" facs="tcp:46288:5"/>them Prisoners; the manner of Relieving them, was thus: Major <hi>Joseph Strouds</hi> who Commands in chief the Militia of the County of <hi>Cork,</hi> Garrison'd at <hi>An<g ref="char:EOLhyphen"/>nagh-beg,</hi> as he was on the 30th at night Relieving his Guards, a Captain-Lieu<g ref="char:EOLhyphen"/>tenant, Cornet, and a Trooper (all of the <hi>Irish</hi> Army) Deserted, and came over to him; one of them proposed a piece of Service, which Major <hi>Stroud</hi> readily accepted, which was, To bring off some <hi>Protestants</hi> from an Island in the <hi>Shan<g ref="char:EOLhyphen"/>non,</hi> called St. <hi>Thomas</hi>'s Island; whereupon the Major immediately taking with him sixteen Dragoons, with them (in four Cotts) entred the Island, and brought off 200 Protestants that were in great misery, being almost starved for want of Food, having only two small Cabbins to shelter them from the Weather, and but a little Hay to lie on; they also brought off a Prey of 46 Horses. Yesterday and this day we played from our Cannon and Mortars very briskly, with very good Execution, as we were told by a Captain, two Lieutenants, and eleven Dragoons, who deserted the Enemy, and came over to us this evening.</p>
+                  <p>
+                     <label>
+                        <hi>Septem.</hi> 1. 1691.</label> This morning Colonel <hi>Wolsely</hi> went from our Camp with 500 Horse and Dra<g ref="char:EOLhyphen"/>goons towards <hi>Killaloo,</hi> it being reported that <hi>Sarsfield</hi> was moving that way: We still continued to Batter and Bombard the Town very furiously: One hun<g ref="char:EOLhyphen"/>dred and twenty of the Rebels who were taken twenty miles off, were last night brought Prisoners into the Camp.</p>
+                  <p>
+                     <label>2d.</label> This morning an Express arrived in the Camp, being sent by Brigadier <hi>Levison</hi> to the General, dated yesterday near <hi>New-Market,</hi> which advises, That having Intelligence on <hi>Monday</hi> evening, where the Lord <hi>Merrions</hi> and the Lord <hi>Brittas</hi>'s Regiment of Horse were, he marched towards them, and by one of the Clock in the morning sell in with them, killed a great Number of them on the Place, cut<g ref="char:EOLhyphen"/>ting off several intire Troops, very few escaping; and had taken the Lord <hi>Castle<g ref="char:EOLhyphen"/>connel</hi>'s Lady, and divers others, Prisoners; as also a good Prey of Cattel: In this Action <hi>Major Wood</hi> had his Legg broke by a fall off his Horse, which was the most of our loss. Our Guns and Mortars played incessantly all last night and this day. A Court <hi>Martial</hi> was this day held, where of the Earl of <hi>Droghedah</hi> was Presi<g ref="char:EOLhyphen"/>dent, where a Woman which pretended she came for a Protection for Cattel, was Condemned for perswading some <hi>French</hi> Soldiers (whom she took for Papists) to desert and go over to the <hi>Irish;</hi> several others were also found guilty of Steal<g ref="char:EOLhyphen"/>ing. This day we had finished two Batteries more, one of 14 Pieces, the other of 10, all 18 and 24 Pounders. Our Lines of Communication being finished, we b<gap reason="illegible: missing" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>gan this day to work on a Line of Circumvallation.</p>
+                  <p>
+                     <label>3d.</label> By a Dragoon of Colonel <hi>Nugent</hi>'s, who this day came over to us from the <hi>Enemy,</hi> we were advised, That the <hi>Enemy</hi>'s Horse and Dragoons were at <hi>Annagh<g ref="char:EOLhyphen"/>beg,</hi> about three miles above <hi>Lymerick,</hi> where they lay encamped; that they want<g ref="char:EOLhyphen"/>ed Bread and Salt, and were very ill Clad, as was also the Deserter. This evening the General went to view their Camp, to make which look great, the <hi>Enemy</hi> had set up all their Sheets and Blankets to make a shew of Tents.</p>
+                  <p>
+                     <label>4th.</label> This day the Princess of <hi>Denmark</hi>'s Regiment joyned us. This evening three hundred Horse and Dragoons marched from the Camp towards <hi>Kerry,</hi> to reinforce Brigadier <hi>Levison,</hi> who was ordered to reduce that Countrey, and all the Garri<g ref="char:EOLhyphen"/>sons betwixt <hi>Lymerick</hi> and <hi>Cork.</hi> We were all yesterday and this day employed in unshipping our Guns, Mortars, Stores <hi>&amp;c.</hi> and joyning them to the Train. T<gap reason="illegible: faint" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>is Night we began to work on a New Battery of Twenty Two Guns, the least Eighteen Pounders, and Eleven Mortars, from Eighteen Inches three quarters
+<pb n="6" facs="tcp:46288:6"/>to Ten and an half Diameter, on the right of the Town, and within Carbine Shot of the Wall: Our men worked some time unperceived, but the Moon ri<g ref="char:EOLhyphen"/>sing, discovered us to the Enemy, who played incessantly upon us, and killed seven or eight men; however, we still continued working thereon. This day we fini<g ref="char:EOLhyphen"/>shed our Line of Contravallation, with four Forts for the defence of it.</p>
+                  <p>
+                     <label>5th.</label> Mo<gap reason="illegible: missing" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>t of this day proving Wet, hindred our working on the great Battery. Deserters that came in this day, informed us, That the Enemy that were encamp<g ref="char:EOLhyphen"/>ed at the Lower-Town, were returned between this place and <hi>Killaloo,</hi> having left four Regiments of Dragoons to guard the Fords of the River; and with the rest, and eight Regiments of Horse, they were resolved to dispute our Passage.</p>
+                  <p>
+                     <label>6th.</label> The Rain continuing to fall heavily this day, prevented our working at the great Battery, and finishing it this night, as we expected. By Deserters that came into the Camp this day from the Town, we were informed, That Monsieur <hi>D'Ʋs<g ref="char:EOLhyphen"/>fore</hi> the <hi>French</hi> General, had much ado to keep the <hi>Rapparees,</hi> that came from <hi>Aghrim,</hi> from Mutinying: That he had promised them, That if a supply of Mo<g ref="char:EOLhyphen"/>ney, Ammunition and Provisions, came not from <hi>France</hi> in 12 days, he would dismiss them.</p>
+                  <p>
+                     <label>7th.</label> This morning the General having receiv'd advice, That the <hi>Irish</hi> of the Coun<g ref="char:EOLhyphen"/>ty of <hi>Kerry</hi> were numerous, and b ing Armed, design'd to oppose Brigadier <hi>Le<g ref="char:EOLhyphen"/>vison,</hi> ordered the Princess of <hi>Denmark</hi>'s, and another Regiment of Foot, to march and joyn the Brigadier: Soon after we had an Account, That the Brigadiers Party had taken several Preys, in which were above a thousand Head of Cattel, a great many Horses, some of them very good; as also abundance of Sheep, Goats, and Hogs. Deserters that came into the Camp this day, told us, That our Bombs had set divers Houses on fire, but that it was soon quenched, the Buildings be<g ref="char:EOLhyphen"/>ing most of Stone, and very strong; and that the second Bomb that was thrown killed the Lady <hi>Dillon,</hi> and wounded some others.</p>
+                  <p>
+                     <label>8th.</label> The General having resolved to Attack <hi>Lymerick</hi> on the <hi>English</hi>-Town side, which is to our Right, in order to which, our Approaches were carried on with such Celerity, that in four days time we run our Lines so near to the Enemy, that we could annoy one another with our Small-shot. By this day we had raised a Line composed of several Batteries, <hi>viz.</hi> One to the Left, of ten Field Pieces, to shoot Red-hot Balls; another of 30 Guns, one Battery of 8 Mortars and of 6, and another on <hi>Ireton</hi>'s Fort, (which much annoy'd the <hi>Irish</hi> Town) of 5 Mortars and 8 Guns, 12 and 18 Pounders, and a Fort to secure our Lines of Battery. At <hi>Four</hi> this morning we fired a great Mortar, but the Shell bursting in her, flung both the Mortar and Carriage two yards off the Floating. We soon after discharged fourteen 24, and three 18 Pounders, which (like a Volley of Small-shot, for the closeness of firing) opened a Breach in the Wall, at which two Coaches might en<g ref="char:EOLhyphen"/>ter a brest, and filled the Counterscarp with its Ruines; and all this day we con<g ref="char:EOLhyphen"/>tinued to ply the Town with Fire-Balls, Carcasses and Bombs, which did them much mischief.</p>
+                  <p>
+                     <label>9th.</label> Our Cannon and Mortars continued to play without intermission, that from our great <hi>Battery</hi> we this day made a Breach in the Wall of the <hi>English</hi>-Town, of about thirty yards wide. This day we finished another <hi>Battery,</hi> which play'd up<g ref="char:EOLhyphen"/>on <hi>St. John</hi>'s Gate in the <hi>Irish Town;</hi> and this day we began to work on two other <hi>Batteries,</hi> one of seven <hi>Eighteen Pounders,</hi> and the other of sixteen <hi>Twenty Four Pounders.</hi> About <hi>Two</hi> this Afternoon, a <hi>Body</hi> of the Enemy came out, and ap<g ref="char:EOLhyphen"/>pear'd
+<pb n="7" facs="tcp:46288:6"/>as if they intended a Sally, but design'd only to secure a Ditch that lay betwixt them and our <hi>Batteries;</hi> which was no sooner known, but our men march'd down upon them, and beat them back into the Town, killing about thirty, with the loss only of one Granadier. Our Guns and Mortars continued to play into the Town all this night without intermission.</p>
+                  <p>
+                     <label>10th.</label> Early this morning one of the Enemies Captains came to us out of the Town, and gave an account, <hi>That yesterday, in beating the Enemy into the Town, we killed two of their Majors, and one of our Bombs killed Monsieur</hi> la Four, <hi>who was Bro<g ref="char:EOLhyphen"/>ther to the Governour; and that the Governour and Officers, to keep up the Hearts of the Town and Garrison, assured them, That the French Fleet had totally beaten the English and Dutch, and forced those English Vessels, with Captain</hi> Coal, <hi>into the</hi> Shannon; <hi>but that Day, or within Forty Eight Hours, a Squadron of French would come into the River to their Relief, and wholly destroy the English,</hi> &amp;c. All this day we continued firing, and about six at night the Town appear'd on fire in many places; to prevent its spreading, the Enemy blew up divers Houses and Buildings; notwithstanding which, some very considerable place continued burn<g ref="char:EOLhyphen"/>ing with great violence until two the next morning.</p>
+                  <p>
+                     <label>11th.</label> This morning some Officers of Sir <hi>Albert Cunningham</hi>'s Regiment of Dragoons came to the Camp, with an Express from their Lieutenant Colonel <hi>Echlin,</hi> of the loss of their Colonel, and to pray the Generals Favour to have the Regi<g ref="char:EOLhyphen"/>ment: The said Colonel Sir <hi>Albert Cunningham</hi>'s Regiment being Detached from the Camp to joyn the Forces for the Reducing of <hi>Sligo;</hi> and he staying after them, did follow with ten men only as a Guard. In their March, upon the Hills near <hi>Boyle,</hi> they unhappily mistook their way in a Fogg, and sell into the hands of two or three hundred Rapparees, to whom they sold their Lives at the utmost Rate, killing about twenty five, but were at last over-power'd and cut in pieces, vvhose Blood vvas soon Reveng'd by <hi>Baldarick O Donnel,</hi> vvho vvas in hearing of the Guns, but came too late to save the brave Colonel; hovvever he killed many of them, and Routed the rest. We continued to Batter and Bomb the Town all this day, and all night.</p>
+                  <p>
+                     <label>12th.</label> All last night and this day we fired furiously into the Town without intermis<g ref="char:EOLhyphen"/>sion; and Our Breach was widened seventy Paces; this day We began to pre<g ref="char:EOLhyphen"/>pare Our Floating Bridges, in order to pass over the Water, but whether to the Island, or above the Town, to gain the other side, was at that time a Secret. This Morning came to us Ten Dragoons and an Officer Deserters, who said, that in the great Fire that was in the Town on the tenth at Night, the Bombs set Fire to three Magazins; one of Powder, which in blowing up, set Fire unto, and burnt great part of the <hi>English Town,</hi> and did much more mischief, the other two of Beef, Bisket, Oats, Brandy and Wine, which were all destroyed, and would be soon wanted amongst them.</p>
+                  <p>
+                     <label>13th.</label> All this day we continued firing into the Town, and the Deserters which came over to us this day, informed us, That our Ball, Bombs, Carcasses, <hi>&amp;c.</hi> had ruined the greater part of the <hi>English</hi> Town. Our Can<g ref="char:EOLhyphen"/>non now mounted were Sixty Pieces, none less than 12 Pounders. This day the General sent an Express to the Queen.</p>
+                  <pb n="8" facs="tcp:46288:7"/>
+                  <p>
+                     <label>
+                        <hi>Sept.</hi> 14. 1691.</label> This morning the General sent two Regiments towards <hi>Clonmel</hi> and <hi>Waterford</hi> to reinforce the Militia, there being many Prisoners at the latter, and the <hi>Irish</hi> in those parts grew insolent. His excellency also sent Money and Guards to sup<g ref="char:EOLhyphen"/>port them, with Orders to blow up and demolish <hi>Castle-Connel,</hi> and the other Castles we had taken near <hi>Lymerick</hi> on the <hi>Shannon,</hi> and elsewhere, to prevent there being any more Nests of Rebels, Rapparees, <hi>&amp;c.</hi> This day near sixty Wag<g ref="char:EOLhyphen"/>gons of good Wool, taken from the Enemy, were put on Board our Ships.</p>
+                  <p>
+                     <label>15th.</label> We continued all this day to Bomb and Batter the Town, and made the Brea<g ref="char:EOLhyphen"/>ches so wide, that we could plainly see into the Town, which look'd Ruinous. The Enemy made many Sod-Works, and a very deep Trench or Ditch, with Pal<g ref="char:EOLhyphen"/>lisadoes and Stockadoes, yet the men continued impatient to Storm it. About three this afternoon, the Lord <hi>Lisburne</hi> was unfortunately kill'd by a Cannon-Ball from the Town, as he was coming out of his <hi>Tent,</hi> which he had placed in the <hi>Trenches.</hi> This evening our Cannon were thrice discharged, and our Ar<g ref="char:EOLhyphen"/>my made several Volleys, in demonstration of their Joy, for the great Defeat given to the Turks by the <hi>Emperour's Forces.</hi> This night we again fired the Town, which burnt furiously for two hours.</p>
+                  <p>
+                     <label>16th.</label> The General having resolved to pass the <hi>Shannon,</hi> it was given out (to amuse the Enemy) that we were going to raise the Siege; and for the better colouring that pretence, a large Mortar and two or three Guns (which by often firing, had been rendred unserviceable) being drawn off in sight of the Town towards the Shipping. About <hi>Ten</hi> last night, Orders were given to carry our Floats and Pontoons to a place appointed for laying our Bridge, about a mile above the <hi>English Town.</hi> To cover the Work-men, which were about 600 in number, a Detachment of 100 Granadiers was sent in four Boats over to St. <hi>Thomas Island,</hi> from whence to the other side of the River were two or three shallow Fords; they lay there undiscover'd till it was almost morning, when a Trooper that was Patrolling first saw them, and gave notice to four Regiments of the Enemies Dra<g ref="char:EOLhyphen"/>goons, who with some Foot were posted with two Parties under the Com<g ref="char:EOLhyphen"/>mand of Brigadier <hi>Clifford,</hi> not far from thence; upon which those that lay nearest our Bridge, made some Shot at us. About seven a Clock the Bridge was finished, and the General immediately Ordered the Royal Regiment of Dragoons to pass, who drew up on the side of the River, and made way for the Granadiers and Fusiliers that followed; These were supported by four Battalions of Foot, and several Squadrons of Horse. In the mean time, the Enemies Dragoons came down on foot to oppose us; but as soon as our men advanced, they took to their Heels, leaving their Tents and Baggage, with their Bridles and Saddles (their Horses being at Grass, at a place about two miles off) behind them: We took also two Pieces of Brass Cannon, and Brigadier <hi>Maxwel</hi>'s Standard. In this Action we had but one man kill'd, and the Enemy not many, for they run imme<g ref="char:EOLhyphen"/>diately, and great numbers of them afterwards took the advantage of that Con<g ref="char:EOLhyphen"/>fusion and Deserted. We took several Prisoners, and among them, a <hi>French</hi> Lieu<g ref="char:EOLhyphen"/>tenant Colonel of Dragoons, and some other Officers, who confirmed what we had heard before, of the burning the two Stores of <hi>Biscuit</hi> a d one of <hi>Brandy.</hi> By this time the main Body of the Enemies Horse, who were Commanded in Chief by <hi>Sarsfield,</hi> and lay there encamped near the Town of <hi>Killaloo,</hi> took the Alarm and drew out, making a shew as if they intended to fight us, but it proved only a Stratagem to get time to secure their <hi>Tents</hi> and <hi>Baggage</hi> in <hi>Decamping,</hi> which they
+<pb n="9" facs="tcp:46288:7"/>did, but in great Confusion, marching away immediately towards the Mountains. Our Horse returned to the Camp, and the Foot were Posted at the Head of the Bridge; a Detachment being first sent to Summons a Castle, which is very ad<g ref="char:EOLhyphen"/>vantagiously situated in the middle of the <hi>Shannon;</hi> upon our Party's coming be<g ref="char:EOLhyphen"/>fore it, they immediately Capitulated, but were allow'd no other Terms, than to be made Prisoners of War: The Garrison consisted of about 60 men. Soon after we took in another Post, both of which prov'd of great use to us.</p>
+                  <p>
+                     <label>17th.</label> This day one <hi>Taaf,</hi> a very sensible man, and a Captain of the <hi>Irish</hi> Royal Regi<g ref="char:EOLhyphen"/>ment of Foot, came over to us, and informed us, that our Bombs and Cannon had killed great numbers of the Garrison, and left few Houses standing in the Town. Notwithstanding our being busied in passing the <hi>Shannon,</hi> we fired plen<g ref="char:EOLhyphen"/>tifully the last night into the Town, and continued to do the like all this day. This day eleven of the Enemies Troops came over to us, with their Horses, Arms, and Accoutrements; and for their better Encouragement, were immediately received into our Troops. This evening, the Standard and two fine Brass Field-Pieces, taken from the Enemy at our passing the <hi>Shannon,</hi> were brought into the Camp.</p>
+                  <p>
+                     <label>18th.</label> Orders were this day sent by the General to Captain <hi>Coal,</hi> to land some men out of his Frigats, to destroy all the Forrage in those parts of the Country of <hi>Clare,</hi> near the Water side.</p>
+                  <p>
+                     <label>19th.</label> These two days past, we were busied in lengthening over our Bridge of Boats, which proving too short at first laying over the River, was bravely supplied by the forwardness of our Souldiers, who marched through the Water where the Bridge proved deficient. This day some of our Militia brought into the Camp three notorious Rapparees, whom they took about 12 miles off,</p>
+                  <p>
+                     <label>20th.</label> This day was chiefly spent, in removing our Float-Bridge nearer the Town, and in raising a Battery for the security of it; we also secured a Pass to the Town, as likwise the Pass of <hi>Annabeg,</hi> where we went over the last year. This Afternoon, the General received an Account from Brigadier <hi>Levison,</hi> that he putting him<g ref="char:EOLhyphen"/>self at the head of 250 Horse and Dragoons, had again fallen upon the Enemy in the County of <hi>Kerry,</hi> who was 3000 strong, and had with them two entire Re<g ref="char:EOLhyphen"/>giments of Dragoons, killed a great many of them, took divers Officers Priso<g ref="char:EOLhyphen"/>ners, and quite dispersed the whole Party; so that vve vvere now entire Masters of that County, vvhich did not a little straighten the Enemy. The Weather vvas very bad, and much Rain for these three days past; but this Afternoon it cleared up, and began to be very fair again.</p>
+                  <p>
+                     <label>21th.</label> All last night and this morning our Guns continued to play furiously into the <hi>Town.</hi> This Afternoon by an Express to the General, vve had advice in the Camp of the Surrender of <hi>Sligo,</hi> the manner as followeth. <hi>On the</hi> 10th <hi>Instant, Colonel</hi> Michelbourne <hi>marched with a Detatchment of his Regiment, and</hi> 500 <hi>of the Militia of the Province of</hi> Ulster, <hi>two Troops of Dragoons of the Army, and six Field Pie<g ref="char:EOLhyphen"/>ces, and encamped at</hi> Drumcheste, <hi>about three miles from</hi> Sligo, <hi>of which he gave an Account to the Earl of</hi> Ganard, <hi>by a Party of Horse under the Command of Captain</hi> Vaughan. <hi>The</hi> 11th, <hi>he advanced within half a mile of the Town, but the Weather being wet, he could make no further Progress that day. On the</hi> 12th, <hi>he drew out his men to Attack the Enemy, who at first made a shew of opposing us, but presently after quitted the Works which they had cast up to defend the Entrance into the Town: Our men pursued them, and forcing the rest of their Out works, beat them into the great Fort, with the loss only on our side, of an Ensign kill'd, and five men wounded. On
+<pb n="10" facs="tcp:46288:8"/>the</hi> 13th, <hi>the Earl of</hi> Granard <hi>came with the Forces under his Command before the Place. His Lordship caused immediately Batteries to be raised against the Fort, and insinuated into the Enemy such Apprehensions of Great Cannon and Mortars, which they were made to believe he had brought along with him, that they sent out to Ca<g ref="char:EOLhyphen"/>pitulate: The Conditions were Agreed and Assigned; much the same Terms as</hi> Gal<g ref="char:EOLhyphen"/>way; <hi>and the Fort, which is very strong, was accordingly Surrendred on the</hi> 15th, <hi>there marching out</hi> 600 <hi>men, under the Command of Sir</hi> Teague O Regan. <hi>They left in the Place</hi> 16 <hi>Pieces of Cannon, and Colonel</hi> Michelbourn <hi>is made Governour of it.</hi>
+                  </p>
+                  <p>
+                     <label>22d.</label> Early this morning, the General, the Duke of <hi>Wirtemburgh,</hi> Lieutenant General <hi>Scravenmore,</hi> with all our Horse and Dragoons, (except Colonel <hi>Coy</hi>'s Regiment of Horse, and 50 out of each of the Regiments of Dragoons of the Ar<g ref="char:EOLhyphen"/>my) and ten Regiments of Foot, taking with them seven days Provisions, and 14 Guns, <hi>viz.</hi> Ten three Pounders, and Four twelve Pounders; marched over our Bridge of Boats into the County of <hi>Clare.</hi> In the mean while the Major-Gene<g ref="char:EOLhyphen"/>rals, <hi>Mackay</hi> and <hi>Talmash,</hi> Commanded the rest of the Army for the security of the Works on <hi>Munster</hi> side of the River, from whence we still continued to fire day and night into the Town, whence also they fired at our men as they passed by. About 12 at noon all our men had passed the Bridge, and were drawn up before the Town on <hi>Clare</hi> side, the Enemy playing upon them all the while from the Ca<g ref="char:EOLhyphen"/>stle and several Towers, both with great and small Shot, but with little Execu<g ref="char:EOLhyphen"/>tion; and about Two, 18 of Colonel <hi>Matthew</hi>'s Dragoons, being our Advance Party, were attacked by the Advance Party of the <hi>Irish,</hi> who out-numbred them, and both Parties were sustained from each side till about Four, that the Float came up, when began a warm Dispute; and the place being near the Town, the Enemy play'd upon us at the same time with their Cannon from the Castle, and their Small-shot from the Walls, which neither dismayed nor did much mischief to our men. About Five, the General order'd a Detachment to Attack the Fort near <hi>Thomond-Bridge,</hi> which Commands both the Bridge and the Kings Island; and though two great Detachments Sallied out of the Town to support those that Defended it, we carried it, and pursued the Enemy over the Bridge to the Town; but the Besieged perceiving our men at their H els, drew up the Draw-Bridge, leaving above six hundred of them to the fury of our Souldiers, some of whom were press'd into the <hi>Shannon,</hi> and the rest killed by our men. In this Action we took 21 Commission Officers, amongst whom were Colonel <hi>Shelton,</hi> two Lieutenant-Colonels, three Majors, five Captains, and the rest <hi>Subalterns:</hi> We took also 47 Common Souldiers, three Brass Guns, two three Pounders, and one twelve Pounder, and five Colours; the General very well rewarding the Souldiers which brought them in: We lost not one Of<g ref="char:EOLhyphen"/>ficer of note, but had killed about 200 of common Souldiers. We immediately posted our selves in all their Works and Forts on that side the Water. This day 100 head of black Cattel, taken in the late Action, and 600 more taken by Briga<g ref="char:EOLhyphen"/>dier <hi>Levison</hi> in <hi>Kerry,</hi> were brought into the Camp.</p>
+                  <p>
+                     <label>23d.</label> All yesterday, and last night, our Guns and Mortars continued firing into the Town: This morning Colonel <hi>Corbet</hi> came over to us from the Enemy, and pro<g ref="char:EOLhyphen"/>posed to the General the bringing over <hi>Tyrconnel</hi>'s and <hi>Galway</hi>'s Regiments of Horse, and out of them to make one good Regiment to serve their Majesties in <hi>Flanders.</hi>
+                  </p>
+                  <pb n="11" facs="tcp:46288:8"/>
+                  <p>
+                     <label>
+                        <hi>Sept.</hi> 24. 1691.</label> About four a Clock this Afternoon the Enemy beat a Parley round the Town, desiring to Capitulate about the Surrender.</p>
+                  <p>
+                     <label>25th.</label> This day the Earl of <hi>Westmeath,</hi> Colonel <hi>Sheldon,</hi> the Lord <hi>Galway,</hi> Lord <hi>Dillon, Nicholas Purcell</hi> Esq; commonly called Baron of <hi>Loughmoe,</hi> the titular Primate, the titular Archbishop of <hi>Casbel,</hi> Sir <hi>Theobald Butler,</hi> Major <hi>Condon,</hi> and some others, came to our Camp from the Enemies Horse Camp, Din'd with the Gene<g ref="char:EOLhyphen"/>ral, and after a large Conference went hence into the Town. The Cessation which began yesterday upon the Besieged's Parlying, continued till ten a Clock the next morning.</p>
+                  <p>
+                     <label>26th.</label>
+                     <hi>Sarsfield</hi> and <hi>Wahop,</hi> and two Brigadiers of the <hi>Irish</hi> Army, came into the Camp from the Town, and came to a Resolution with the General about the Treaty, and in order to it, that Hostages should be exchanged; accordingly in the Afternoon, the Earl of <hi>Westmeath,</hi> Lord <hi>Lowth,</hi> Lord <hi>Evagh,</hi> and Lord <hi>Trimle<g ref="char:EOLhyphen"/>stown,</hi> came Hostages from the Besieged; and in Exchange of them, the General sent in my Lord <hi>Cuts,</hi> Sir <hi>David Collier,</hi> Colonel <hi>Tiffin,</hi> and Colonel <hi>Pyper.</hi>
+                  </p>
+                  <p>
+                     <label>27th.</label> This morning the Besieged sent their Proposals to the General, which were so unreasonable, that the General returned them with disdain, and ordered our Bombardiers and Gunners to make ready to play again into the Town; accord<g ref="char:EOLhyphen"/>ingly all things were prepared, when the Besieged, who were apprehensive of the Consequence, sent out to know what Terms his Excellency would propose to them.</p>
+                  <p>
+                     <label>28th.</label> Early this morning, <hi>Sarsfield. Wahop, Purcell</hi> or <hi>Loughmoe,</hi> the titular Primate, the titular Archbishop of <hi>Cashil, Garret Dillon,</hi> Sir <hi>Theo. Butler,</hi> and <hi>John Brown,</hi> the three last Counsellors at Law, with several other Commissioners on the part of the Enemy, came out of the Town to the Generals Quarters, whither his Excellency sent for all our General Officers; where, after a long Debate, Articles were almost agreed on for the Rendition, not only of <hi>Lymerick,</hi> but of all the other Forts and Castle in the Enemies Possession.</p>
+                  <p>
+                     <label>29th.</label> We were now in Possession of the Six mile-Bridge, and other Passes and Ca<g ref="char:EOLhyphen"/>stles about <hi>Lymerick;</hi> but the <hi>French</hi> and <hi>Irish,</hi> in the Town and Camp, insisting on the having the Articles Agreed to, Signed by the <hi>Lords Justices</hi> as well as the General, things remained in the same posture.</p>
+                  <p>
+                     <label>30th.</label> The Cessatson still continuing, several of our Souldiers went into the Town, and the Besieged came frequently into our Camp; where also <hi>Sarsfield, Wahop, Sheldon,</hi> and others of their Officers, were this day Entertain'd by the Duke of <hi>Wirtemburgh.</hi>
+                  </p>
+                  <p>
+                     <label>
+                        <hi>Octob.</hi> 1. 1691.</label> This Evening the Right Honourable the <hi>Lords Justices</hi> arrived in the Camp.</p>
+                  <p>
+                     <label>2d.</label> This day several <hi>Irish</hi> Officers and Commissioners appointed to Treat, came in<g ref="char:EOLhyphen"/>to the Camp from the Town, and stayed with the <hi>Lord Justices</hi> and <hi>General</hi> till 12 at night; by which time all the Difficulties which arose in settling the Articles being agreed, they were concluded on, and Ordered to be fair Drawn for Signing.</p>
+                  <p>
+                     <label>3d.</label> This Evening the Articles were Signed and Exchanged; but it being late, we only took possession of the <hi>Enemies Out-Works,</hi> their <hi>Stone Fort,</hi> and St. <hi>John's Gate,</hi> on the <hi>Irish Town</hi> side.</p>
+                  <p>
+                     <label>4th.</label> This morning Four Regiments of Foot marched into the <hi>Irish Town,</hi> which is indeed the strongest part of <hi>Lymerick,</hi> leaving the <hi>English-Town</hi> for the <hi>Irish</hi> Quar<g ref="char:EOLhyphen"/>ters, until <hi>Sarsfield,</hi> with those who were design'd to go with him, could be Shipp'd for <hi>France.</hi>
+                  </p>
+                  <pb n="12" facs="tcp:46288:9"/>
+                  <p>
+                     <label>
+                        <hi>Octob.</hi> 5. 1691.</label> The <hi>Irish</hi> having Imprisoned a Lieutenant-Colonel, for denying to go with them for <hi>France,</hi> he was immediately Enlarged, upon the General's taxing them with their Breach of Articles, and laying before them the Consequence of such their Violation; it having been granted them to take off only such as were wil<g ref="char:EOLhyphen"/>ling to go without any manner of Compulsion.</p>
+                  <p>
+                     <label>6th.</label> This morning Colonel <hi>Earl</hi>'s Regiment marched from the Camp towards <hi>Cork,</hi> which Place (with the Garrisons thereabouts) is Assigned them for their Winter-Quarters.</p>
+                  <p>
+                     <label>7th.</label> This morning the Right Honourable the Lords Justices (having seen us in quiet Possession of the <hi>Irish</hi> Town) set forward in their Return to <hi>Dublin.</hi>
+                  </p>
+               </div>
+            </body>
+         </text>
+         <text xml:lang="eng">
+            <front>
+               <div type="title_page">
+                  <pb facs="tcp:46288:9"/>
+                  <p>The CIVIL ARTICLES OF LYMERICK EXACTLY Printed from the Letters Patents. WHEREIN They are Ratified and Exemplified by Their Majesties under the Great Seal of <hi>ENGLAND.</hi>
+                  </p>
+                  <q>
+                     <floatingText xml:lang="eng">
+                        <body>
+                           <div type="license">
+                              <p>
+                                 <hi>Published by Authority.</hi>
+                              </p>
+                           </div>
+                        </body>
+                     </floatingText>
+                  </q>
+                  <p>
+                     <hi>DUBLIN,</hi> Printed by <hi>Robert Thornton,</hi> and are to be Sold by the Booksellers. 1692.</p>
+               </div>
+            </front>
+            <body>
+               <div type="royal_ratification">
+                  <pb facs="tcp:46288:10"/>
+                  <pb facs="tcp:46288:10"/>
+                  <head>THE Civil Articles of Lymerick.</head>
+                  <p>
+                     <hi>GUlielmus &amp; Maria Dei Gratia</hi> Angliae, Scotiae, Franciae &amp; Hiberniae, Rex &amp; Regina, Fidei De<g ref="char:EOLhyphen"/>fensores, <hi>&amp;c. Omnibus</hi> ad quos Praesentes literae nostrae pervenerint salutem: <hi>Inspeximus</hi> Irrotulament. quarund. iterarum patentium de confirmatione geren. Dat. a<g ref="char:EOLhyphen"/>pud <hi>Westmonasterium</hi> vicessimo quarto die <hi>Februarii,</hi> ul<g ref="char:EOLhyphen"/>timi Praeteriti in Cancellar. nostr. Irrotulat. ac ibidem de Recordo remanen. in haec verba. <hi>William and Mary,</hi> by the Grace of God, &amp;c. <hi>To all</hi> to whom these Presents shall come, Greeting. <hi>Whereas</hi> certain Articles bearing date the third day of <hi>Octob.</hi> last past, Made and Agreed on between Our Justices of Our Kingdom of <hi>Ireland,</hi> and Our General of Our Forces there on the one Part, and several Officers there, Commanding within the City of <hi>Limerick</hi> in Our said Kingdom, on the other part. Whereby Our said Justices and General did undertake that We should ratify those Articles within the space of eight months, or sooner; and use their utmost Endea<g ref="char:EOLhyphen"/>vours rhat the same should be Ratified and Confirmed in Parliament. The Tenour of which said Articles, is as follows, <hi>Viz.</hi>
+                  </p>
+                  <q>
+                     <pb n="4" facs="tcp:46288:11"/>
+                     <floatingText xml:lang="eng">
+                        <body>
+                           <div type="collection_of_articles">
+                              <head>ARTICLES Agreed upon the Third Day of <hi>Octob.</hi> One Thousand Six Hundred and Ninety One.</head>
+                              <p>Between the Right Honourable, Sir <hi>Charles Porter,</hi> Knight, and <hi>Thomas Coningsby,</hi> Esq; Lords Justices of <hi>Ireland;</hi> and His Ex<g ref="char:EOLhyphen"/>cellency the Baron <hi>De Ginckle,</hi> Lieutenant General, and Com<g ref="char:EOLhyphen"/>mander in Chief of the <hi>English</hi> Army; <hi>On the One Part:</hi>
+                              </p>
+                              <p>And the Right Honourable, <hi>Patrick</hi> Earl of <hi>Lucan, Piercy</hi> Viscount <hi>Gallmoy,</hi> Colonel <hi>Nicholas Purcel,</hi> Colonel <hi>Nicholas Cusack,</hi> Sir <hi>Toby Butler,</hi> Colonel <hi>Garret Dillon,</hi> and Colonel <hi>John Brown; On the other Part:</hi>
+                              </p>
+                              <p>In the behalf of the <hi>Irish</hi> Inhabitants in the City and County of <hi>Lymerick,</hi> the Counties of <hi>Clare, Kerry, Cork, Sligo,</hi> and <hi>Mayo.</hi>
+                              </p>
+                              <p>In Consideration of the Surrender of the City of <hi>Lymerick</hi> and other Agreements made between the said Lieutenant General <hi>Ginckle,</hi> the Governor of the City of <hi>Lymerick,</hi> and the Generals of the <hi>Irish Army,</hi> bearing Date with these Presents, for the Surrender of the said City, and Submission of the said Army: It is Agreed, That</p>
+                              <div n="1" type="article">
+                                 <head>I.</head>
+                                 <p>THE <hi>Roman Catholicks</hi> of this Kingdom, shall enjoy such Privileges in the Exercise of their Religion, as are consistent with the Laws of <hi>Ireland;</hi> or as they did enjoy in the Reign of King <hi>Charles</hi> the II: And their Majesties, as soon as their Affairs will permit them to Summon a Parliament in this Kingdom, will endeavour to procure the said <hi>Roman Catholicks</hi> such farther
+<pb n="5" facs="tcp:46288:11"/>Security in that particular, as may preserve them from any Di<g ref="char:EOLhyphen"/>sturbance, upon the Account of their said Religion.</p>
+                              </div>
+                              <div n="2" type="article">
+                                 <head>II.</head>
+                                 <p>All the Inhabitants or Residents of <hi>Lymerick,</hi> or any other Garrison now in the possession of the <hi>Irish,</hi> and all Officers and Souldiers, now in Arms, under any Commission of King <hi>James,</hi> or those Authorized by him to grant the same in the seve al Counties of <hi>Lymerick, Clare, Kerry, Cork,</hi> and <hi>Mayo,</hi> or any of them; and all the Commissioned Officers in their Majesties Quar<g ref="char:EOLhyphen"/>ters, that belong to the <hi>Irish</hi> Regiments, now in being, that are Treated with, and who are not Prisoners of War, or have taken Protection, and who shall return and submit to their Majesties Obedience, and their and every of their Heirs, shall hold, pos<g ref="char:EOLhyphen"/>sess and enjoy all and every their Estates of Free-hold, and Inhe<g ref="char:EOLhyphen"/>ritance; and all the Rights, Titles and Interests, Privileges and Im<g ref="char:EOLhyphen"/>munities, which they, and every, or any of them held, enjoyed, or were rightfully and lawfully Intituled to, in the Reign of King <hi>Charles</hi> the II, or at any time since, by the Laws and Statutes that were in force in the said Reign of King <hi>Charles</hi> the II, and shall be put in possession, by order of the Government, of such of them as are in the King's Hands, or the Hands of his Tenants, without being put to any suit or trouble therein; and all such Estates shall be freed and discharg'd from all Arrears of Crown-Rents, Quit-Rents, and other publick Charges incurred and be<g ref="char:EOLhyphen"/>come due since <hi>Michaelmas,</hi> 1688. to the day of the date hereof: And all persons comprehended in this <hi>Article,</hi> shall have, hold, and enjoy all their Goods and Chattels, real and personal, to them, or any of them belonging, and remaining either in their own hands, or the hands of any persons whatsoever, in trust for, or for the use of them, or any of them: and all, and every the said persons, of what Profession, Trade, or Calling soever they b<gap reason="illegible: faint" extent="1 letter">
+                                       <desc>•</desc>
+                                    </gap>, shall and may use, exercise and practrse their several and respe<g ref="char:EOLhyphen"/>ctive Professions, Trades and Callings, as freely as they did use,
+<pb n="6" facs="tcp:46288:12"/>exercise and enjoy the same in the Reign of King <hi>Charles</hi> the II: Provided, that nothing in this <hi>Article</hi> contained, be construed to extend to, or restore any forfeiting person now out of the King<g ref="char:EOLhyphen"/>dom, except what are hereafter comprized: Provided also, That no Person whatsoever shall have or enjoy the benefit of this Ar<g ref="char:EOLhyphen"/>ticle, that shall neglect or refuse to take the Oath of Allegiance made by Act of Parliament in <hi>England,</hi> in the First Year of the Reign of their present Majesties, when thereunto required.</p>
+                              </div>
+                              <div n="3" type="article">
+                                 <head>III.</head>
+                                 <p>All Merchants, or reputed Merchants of the City of <hi>Lymerick,</hi> or of any other Garrison, now possessed by the <hi>Irish,</hi> or of any Town or Place in the Counties of <hi>Clare,</hi> or <hi>Kerry,</hi> who are ab<g ref="char:EOLhyphen"/>sent beyond the Seas, that have not bore Arms since their Ma<g ref="char:EOLhyphen"/>jesties Declaration in <hi>February</hi> 1688. shall have the benefit of the Second Article, in the same manner as if they were present, <hi>pro<g ref="char:EOLhyphen"/>vided</hi> such Merchants, and reputed Merchants, do repair into this Kingdom within the space of eight months from the date hereof.</p>
+                              </div>
+                              <div n="4" type="article">
+                                 <head>IV.</head>
+                                 <p>The following Officers, <hi>viz.</hi> Colonel <hi>Simon Lutterel,</hi> Captain <hi>Rowland White, Maurice Eustace</hi> of <hi>Yermanstown, Chievers</hi> of <hi>Mays<g ref="char:EOLhyphen"/>town,</hi> commonly called <hi>Mount-Leinster,</hi> now belonging to the Re<g ref="char:EOLhyphen"/>giments in the aforesaid Garrisons and Quarters of the <hi>Irish Ar<g ref="char:EOLhyphen"/>my,</hi> who were beyond the Seas, and sent thither upon affairs of their respective Regiments, or the <hi>Army</hi> in general, shall have the benefit and advantage of the second Article, <hi>provided</hi> they re<g ref="char:EOLhyphen"/>turn hither within the space of eight months from the date of these Presents, and submit to their Majesties Government, and take the above-mentioned Oath.</p>
+                              </div>
+                              <div n="5" type="article">
+                                 <head>V.</head>
+                                 <p>That all and singular, the said persons comprized in the 2d and 3d Articles, shall have a general Pardon of all Attainders, Out<g ref="char:EOLhyphen"/>lawries,
+<pb n="7" facs="tcp:46288:12"/>Treasons, Misprisions of Treason, Premunires, Felonies, Trespasses, and other Crimes and Misdemeanors whatsoever, by them, or any of them committed since the beginning of the Reign of King <hi>James</hi> the II: and if any of them are Attainted by Parliament, the Lords Justices, and General, will use their best Endeavours to get the same repealed by Parliament, and the Out<g ref="char:EOLhyphen"/>lawries to be reversed <hi>Gratis,</hi> all but Writing-Clerks Fees.</p>
+                              </div>
+                              <div n="6" type="article">
+                                 <head>VI.</head>
+                                 <p>
+                                    <hi>And whereas</hi> these present Wars have drawn on great Violen<g ref="char:EOLhyphen"/>ces on both parts, and that if leave were given to the bringing all sorts of private Actions, the Animosities would probably con<g ref="char:EOLhyphen"/>tinue, that have been too long on Foot, and the publick Distur<g ref="char:EOLhyphen"/>bances last: For the Quieting and Settling therefore of this Kingdom, and avoiding those Inconveniences which would be the necessary consequence of the contrary, no person or persons whatsoever, comprized in the fore-going Articles, shall be Sued, Molested, or Impleaded at the Suit of any Party or Parties what<g ref="char:EOLhyphen"/>soever, for any Trespasses by them committed, or for any Arms, Horses, Money, Goods, Chattels, Merchandizes, or Provisions whatsoever, by them seized or taken, during the time of the War. And no person or Persons whatsoever, in the Second or Third Ar<g ref="char:EOLhyphen"/>ticles comprised, shall be Sued, Impleaded, or made accountable for the Rents or mean Rates of any Lands, Tenements, or Hou<g ref="char:EOLhyphen"/>ses by him or them received or enjoyed in this Kingdom, since the beginning of the present War, to the day of the Date hereof, nor for any Waste or Trespass by him or them committed in any such Lands, Tenements, or Houses: And it is also agreed, that this Article shall be mutual, and reciprocal, on both sides.</p>
+                              </div>
+                              <div n="7" type="article">
+                                 <head>VII.</head>
+                                 <p>Every Nobleman and Gentleman, comprised in the said 2d and 3d Article, shall have liberty to Ride with a Sword, and Case of Pistols, if they think sit; and keep a Gun in their Houses, for the Defence of the same, or for Fowling.</p>
+                              </div>
+                              <div n="8" type="article">
+                                 <pb n="8" facs="tcp:46288:13"/>
+                                 <head>VIII.</head>
+                                 <p>The Inhabitants and Residents in the City of <hi>Lymerick,</hi> and other Garrisons, shall be permitted to remove their Goods, Chat<g ref="char:EOLhyphen"/>tels, and Provisions, out of the same, without being viewed and searched, or paying any manner of Duties, and shall not be com<g ref="char:EOLhyphen"/>pelled to leave the Houses or Lodgings they now have, for the space of six weeks next ensuing the Date hereof.</p>
+                              </div>
+                              <div n="9" type="article">
+                                 <head>IX.</head>
+                                 <p>The Oath to be administred to such <hi>Roman-Catholicks</hi> as sub<g ref="char:EOLhyphen"/>mit to their Majesties Government, shall be the Oath abovesaid, and no other.</p>
+                              </div>
+                              <div n="10" type="article">
+                                 <head>X.</head>
+                                 <p>No person or persons, who shall at any time hereafter break these Articles, or any of them, shall thereby make, or cause any other person or persons to forfeit or lose the benefit of the same.</p>
+                              </div>
+                              <div n="11" type="article">
+                                 <head>XI.</head>
+                                 <p>The Lords Justices and General do promise to use their utmost Endeavours, that all the persons comprehended in the above<g ref="char:EOLhyphen"/>mentioned Articles, shall be protected and defended from all Ar<g ref="char:EOLhyphen"/>rests and Executions for Debt or Damage, for the space of eight months, next ensuing the Date hereof.</p>
+                              </div>
+                              <div n="12" type="article">
+                                 <head>XII.</head>
+                                 <p>Lastly, The Lords Justices and General do undertake, that their Majesties will Ratifie these Articles within the space of eight months, or sooner, and use their utmost Endeavours, that the same shall be ratified and confirmed in Parliament.</p>
+                                 <p>XIII. And whereas Colonel <hi>John Brown</hi> stood indebted to several Protestants, by Judgments of Record; which appearing to the
+<pb n="9" facs="tcp:46288:13"/>late Government, the Lord <hi>Tyrconnel,</hi> and Lord <hi>Lucan,</hi> took away the Effects the said <hi>John Brown</hi> had to answer the said Debts, and promised to clear the said <hi>John Brown</hi> of the said Debts; which effects were taken for the publick use of the <hi>Irish,</hi> and their Army: For freeing the said Lord <hi>Lucan</hi> of his said Engagement, past on their publick Account, for Payment of the said Protestants, and for preventing the ruine of the said <hi>John Brown,</hi> and for satisfa<g ref="char:EOLhyphen"/>ction of his Creditors, at the instance of the Lord <hi>Lucan,</hi> and the rest of the Persons aforesaid, it is agreed, That the said Lords Justices, and the said Baron <hi>de Ginckle,</hi> shall intercede with the King and Parliament, to have the Estates secured to <hi>Roman-Ca<g ref="char:EOLhyphen"/>tholicks,</hi> by Articles and Capitulation in this Kingdom, charged with, and equally liable to the payment of so much of the said Debts, as the said Lord <hi>Lucan,</hi> upon stating Accompts with the said <hi>John Brown,</hi> shall certifie under his Hand, that the Effects ta<g ref="char:EOLhyphen"/>ken from the said <hi>Brown</hi> amount unto; which Accompt is to be stated, and the Ballance certified by the said Lord <hi>Lucan</hi> in one and twenty days after the Date hereof:</p>
+                                 <closer>For the true performance hereof, We have hereunto set our Hands,
+<signed>
+                                       <list>
+                                          <item>
+                                             <hi>Char. Porter.</hi>
+                                          </item>
+                                          <item>
+                                             <hi>Tho. Coningsby.</hi>
+                                          </item>
+                                          <item>Bar. <hi>De Ginckle.</hi>
+                                          </item>
+                                       </list>
+                                    </signed>
+                                    <lb/> Present,<lb/>
+                                    <signed>
+                                       <list>
+                                          <item>
+                                             <hi>Scravemare.</hi>
+                                          </item>
+                                          <item>
+                                             <hi>H. Maccay.</hi>
+                                          </item>
+                                          <item>
+                                             <hi>T. Talmash.</hi>
+                                          </item>
+                                       </list>
+                                    </signed>
+                                 </closer>
+                              </div>
+                           </div>
+                        </body>
+                     </floatingText>
+                  </q>
+                  <p>
+                     <hi>ANd whereas</hi> the said City of <hi>Limerick</hi> hath been since, in pursuance of the said Articles, surrendred unto Us. <hi>Now know ye,</hi> that We having considered of
+<pb n="10" facs="tcp:46288:14"/>the said Articles are Graciously pleased hereby to de<g ref="char:EOLhyphen"/>clare, that We do for Us, Our Heirs and Successors, as far as in Us lies, Ratifie and Confirm the same, and every Clause, Matter and Thing therein contained. And as to such Parts thereof, for which an Act of Parliament shall be found to be necessary, We shall Recommend the same to be made good by Parliament, and shall give Our Royal Assent to any Bill or Bills that shall be Passed by Our Two Houses of Parliament to that purpose. <hi>And whereas</hi> it appears unto Us, that it was agreed between the Parties to the said Articles, that after the words, <hi>Lime<g ref="char:EOLhyphen"/>rick, Clare, Kerry, Cork, Mayo,</hi> or any of them in the se<g ref="char:EOLhyphen"/>cond of the said Articles, the words following; Viz. <hi>And all such as are under their Protection in the said Counties,</hi> should be inserted, and be part of the said Articles. Which words having been casually omitted by the Writer, the omission was not discovered till after the said Articles were Signed, but was taken notice of before the second Town was surrendred: And that our said Justices, and General, or One of them, did promise that the said Clause should be made good, it being within the Intention of the Capi<g ref="char:EOLhyphen"/>tulation, and inserted in the Foul Draught thereof. <hi>Our further Will and Pleasure is,</hi> and We do hereby Ratifie and Confirm the said omitted Words, Viz. <hi>[And all such as are under their Protection in the said Counties]</hi> Hereby for Us, Our Heirs and Successors, Ordaining and Decla<g ref="char:EOLhyphen"/>ring, that all and every Person and Persons therein con<g ref="char:EOLhyphen"/>cerned,
+<pb n="11" facs="tcp:46288:14"/>shall and may have, receive, and enjoy the Bene<g ref="char:EOLhyphen"/>fit thereof, in such and the same manner, as if the said Words had been inserted in their proper place, in the said second Article; any Omission, Defect, or Mistake in the said second Article, in any wise notwithstanding. <hi>Provided</hi> always, and Our Will and Pleasure is, that these Our Letters Parents shall be Enrolled in Our Court of <hi>Chancery</hi> in our said Kingdom of <hi>Ireland,</hi> within the space of one year next ensuing. <hi>In Witness,</hi> &amp;c. <hi>Witness</hi> Our Self at <hi>Westminster,</hi> the twenty fourth day of <hi>February, Anno Regni Regis &amp; Reginae</hi> Gulielmi <hi>&amp;</hi> Mariae <hi>Quarto per Breve de Privato Sigillo.</hi> Nos <hi>autem Tenorem Pre<g ref="char:EOLhyphen"/>missor. Predict. Ad Requisitionem Attornat. General. Domini Regis &amp; Dominae Reginae pro Regno</hi> Hiberniae. <hi>Duximus exemplificand. per Presentes.</hi> In Cujus <hi>Rei Testimonium has literas nostras fieri fecimus Patentes.</hi> Testibus <hi>Nobis Ipsis apud</hi> Westmon. <hi>Quinto die</hi> Aprilis, <hi>Anno{que} Regni eorum Quarto.</hi>
+                  </p>
+                  <closer>
+                     <signed>Bridges</signed>
+                  </closer>
+                  <closer>
+                     <signed>Examinat. per nos
+<list>
+                           <item>S. Keck</item>
+                           <item>Lacon W<seg rend="sup">m.</seg> Childe</item>
+                        </list> In Cancel. Magistros</signed>
+                  </closer>
+               </div>
+            </body>
+         </text>
+         <text xml:lang="eng">
+            <front>
+               <div type="title_page">
+                  <pb facs="tcp:46288:15"/>
+                  <pb facs="tcp:46288:15"/>
+                  <p>The MILITARY ARTICLES OF LYMERICK AGREED UPON Between the Baron De Ginckle, Lieutenant-General and Commander in Chief of the ENGLISH ARMY: AND The Lieutenant Generals <hi>De Ʋssoon</hi> and <hi>De Tesse,</hi> Com<g ref="char:EOLhyphen"/>manders in Chief of the <hi>Irish Army,</hi> &amp;c.</p>
+                  <q>
+                     <floatingText xml:lang="eng">
+                        <body>
+                           <div type="license">
+                              <p>
+                                 <hi>Published by Authority.</hi>
+                              </p>
+                           </div>
+                        </body>
+                     </floatingText>
+                  </q>
+                  <p>
+                     <hi>DUBLIN,</hi> Printed by <hi>Robert Thornton,</hi> and are to be Sold by the Booksellers. 1692.</p>
+               </div>
+            </front>
+            <body>
+               <div type="collection_of_articles">
+                  <pb facs="tcp:46288:16"/>
+                  <pb n="15" facs="tcp:46288:16"/>
+                  <head>
+                     <hi>ARTICLES Agreed upon</hi> Between the Baron <hi>De Ginckle,</hi> Lieut. General, and Comman<g ref="char:EOLhyphen"/>der in Chief of the <hi>English</hi> Army, <hi>on the One Side: AND</hi> The Lt. Generals, <hi>De Ussoon</hi> and <hi>De Tesse,</hi> Commanders in Chief of the <hi>Irish</hi> Army, <hi>on the Other;</hi> and the Gene<g ref="char:EOLhyphen"/>ral Officers hereunto Subscribing.</head>
+                  <div n="1" type="article">
+                     <head>I.</head>
+                     <p>THat all Persons without any Exceptions, of what Quality or Condition soever, that are willing to leave the King<g ref="char:EOLhyphen"/>dom of <hi>Ireland,</hi> shall have free Liberty to go to any Countrey beyond the Seas (<hi>England</hi> and <hi>Scotland</hi> exce<g ref="char:EOLhyphen"/>pted) where they think fit, with their Families, Houshold-Stuff, Plate and Jewels.</p>
+                  </div>
+                  <div n="2" type="article">
+                     <head>II.</head>
+                     <p>That all General Officers, Colonels, and generally all other Of<g ref="char:EOLhyphen"/>ficers of Horse, Dragoons, and Foot-Guards, Troopers, Dragoon<g ref="char:EOLhyphen"/>ers, Souldiers of all kinds, that are in any Garrison, Place or Post, now in the Hands of the <hi>Irish,</hi> or encamped in the Counties of <hi>Cork, Clare,</hi> and <hi>Kerry,</hi> as also those called <hi>Rapparees,</hi> or Volun<g ref="char:EOLhyphen"/>tiers, that are willing to go beyond Seas, as aforesaid, shall have free leave to imbark themselves where-ever the Ships are, that are appointed to Transport them; and to come in whole Bodies,
+<pb n="16" facs="tcp:46288:17"/>as they are now compos'd, or in Parties, Companies, or otherwise, without having any Impediment, directly or indirectly.</p>
+                  </div>
+                  <div n="3" type="article">
+                     <head>III.</head>
+                     <p>That all Persons above-mentioned, that are willing to leave <hi>Ireland,</hi> and go into <hi>France,</hi> shall have leave to declare it at the Times and Places hereafter mentioned; <hi>viz.</hi> The Troops in <hi>Ly<g ref="char:EOLhyphen"/>merick,</hi> on <hi>Tuesday</hi> next in <hi>Lymerick;</hi> the Horse, at their Camp on <hi>Wednesday;</hi> and the other Forces that are dispersed in the Coun<g ref="char:EOLhyphen"/>ties of <hi>Clare, Kerry,</hi> and <hi>Cork,</hi> on the 8th instant, and on none other, before Monsieur <hi>Tameron,</hi> the <hi>French</hi> Intendant, and Colo<g ref="char:EOLhyphen"/>nel <hi>Withers;</hi> and after such Declaration is made, the Troops that will go into <hi>France,</hi> must remain under the Command and Disci<g ref="char:EOLhyphen"/>pline of their Officers that are to Conduct them thither: And Deserters of each side shall be given up, and punish'd accordingly.</p>
+                  </div>
+                  <div n="4" type="article">
+                     <head>IV.</head>
+                     <p>That all <hi>English</hi> and <hi>Scotch</hi> Officers, that serve now in <hi>Ireland</hi> shall be included in this Capitulation, as well for the Security of their Estates and Goods, in <hi>England, Scotland</hi> and <hi>Ireland,</hi> (if they are willing to remain here) as for passing freely into <hi>France,</hi> or any other Countrey to serve.</p>
+                  </div>
+                  <div n="5" type="article">
+                     <head>V.</head>
+                     <p>That all the General <hi>French</hi> Officers, the Intendant, the Inge<g ref="char:EOLhyphen"/>niers, the Commissaries at War, and of the Artillery, the Treasu<g ref="char:EOLhyphen"/>rer, and other <hi>French</hi> Officers, Strangers, and all others whatsoever, that are in <hi>Sligo, Ross, Clare,</hi> or in the Army, or that do Trade or Commerce, or are otherways employed in any kind of Station or Condition, shall have free leave to pass into <hi>France,</hi> or any other Countrey; and shall have leave to Ship themselves, with all their Horses, Equipage, Plate, Papers, and all their Effects whatever; and that General <hi>Ginckle</hi> will order Pass-ports for them, Convoys, and Carriages by Land and Water, to carry them safe from <hi>Lyme<g ref="char:EOLhyphen"/>rick,</hi>
+                        <pb n="17" facs="tcp:46288:17"/>to the Ships where they shall be Imbarked, without paying any thing for the said Carriages, or to those that are employed therein, with their Horses, Carrs, Boats and Shallops.</p>
+                  </div>
+                  <div n="6" type="article">
+                     <head>VI.</head>
+                     <p>That if any of the aforesaid Equipages, Merchandize, Horses, Money, Plate, or other Moveables, or Houshold-Stuff, belonging to the said <hi>Irish</hi> Troops, or to the <hi>French</hi> Officers, or other par<g ref="char:EOLhyphen"/>ticular Persons whatsoever, be robb'd, destroy'd, or taken away by the Troops of the said General; the said General will order it to be restor'd, or Payment to be made, according to the Va<g ref="char:EOLhyphen"/>lue that is given in upon Oath by the Person so Robbed or Plun<g ref="char:EOLhyphen"/>dered: And the said <hi>Irish</hi> Troops to be Transported as aforesaid: And all other Persons belonging to them, are to observe good Order in their March and Quarters; and shall Restore whatever they shall take from the Countrey, or make Restitution for the same.</p>
+                  </div>
+                  <div n="7" type="article">
+                     <head>VII.</head>
+                     <p>That, to facilitate the Transporting the said Troops, the Ge<g ref="char:EOLhyphen"/>neral will furnish 50 Ships, each Ship Burthen 200 Tuns; for which, the Persons to be Transported, shall not be obliged to pay; and 20 more, if there shall be occasion, without their pay<g ref="char:EOLhyphen"/>ing for them; and if any of the said Ships shall be of lesser Bur<g ref="char:EOLhyphen"/>then, he will furnish more in number to countervail; and al<g ref="char:EOLhyphen"/>so give two Men of War to imbark the Principal Officers, and serve for a Convoy to the Vessels of Burthen.</p>
+                  </div>
+                  <div n="8" type="article">
+                     <head>VIII.</head>
+                     <p>That a Commissary shall be immediately sent to <hi>Cork,</hi> to visit the Transport Ships, and what Condition they are in for Sailing; and that as soon as they are ready, the Troops to be Transported shall March with all convenient speed the nearest way, in order to imbark there: And if there shall be any more Men to be Transported, than can be carried off in the said Fifty
+<pb n="18" facs="tcp:46288:18"/>Ships, the rest shall quit the <hi>English</hi> Town of <hi>Lymerick,</hi> and march to such Quarters as shall be appointed for them, conve<g ref="char:EOLhyphen"/>nient for their Transportation; where they shall remain till the other 20 Ships be ready, which are to be in a Month; and may imbark on any <hi>French</hi> Ship that may come in the mean time.</p>
+                  </div>
+                  <div n="9" type="article">
+                     <head>IX.</head>
+                     <p>That the said Ships shall be furnished with Forrage for Horse; and all necessary Provisions to subsist the Officers, Troops, Dra<g ref="char:EOLhyphen"/>goons and Souldiers, and all other Persons that are shipped to be Transported into <hi>France;</hi> which Provisions shall be paid for, as foon as all are disimbarked at <hi>Brest</hi> or <hi>Nants,</hi> upon the Coast of <hi>Brittany,</hi> or any other Port of <hi>France</hi> they can make.</p>
+                  </div>
+                  <div n="10" type="article">
+                     <head>X.</head>
+                     <p>And to secure the Return of the said Ships (the Danger of the Seas excepted) and Payment for the said Provisions, sufficient Hostages shall be given.</p>
+                  </div>
+                  <div n="11" type="article">
+                     <head>XI.</head>
+                     <p>That the Garrisons of <hi>Clare-Castle, Ross,</hi> and all other Foot that are in Garrisons, in the Counties of <hi>Clare, Cork</hi> and <hi>Kerry,</hi> shall have the Advantage of this present Capitulation; and such part of those Garrisons as design to go beyond Seas; shall march out with their Arms, Baggage, Drums beating, Ball in Mouth, Match lighted at both ends, and Colours flying, with all the Pro<g ref="char:EOLhyphen"/>visions, and half the Ammunition that is in the said Garrisons, and joyn the Horse that march to be Transported; or if then there's not Shipping enough for the Body of Foot that is to be next Transported after the Horse, General <hi>Ginckle</hi> will order, that they be furnished with Carriages for that purpose; and what Provisions they shall want in their March, they paying for the said Provisions; or else, that they may take it out of their own Magazins.</p>
+                  </div>
+                  <div n="12" type="article">
+                     <pb n="19" facs="tcp:46288:18"/>
+                     <head>XII.</head>
+                     <p>That all the Troops of Horse and Dragoons, that are in the Counties of <hi>Cork, Kerry,</hi> and <hi>Clare,</hi> shall also have the Benefit of this Capitulation; and that such as will pass into <hi>France,</hi> shall have Quarters given them in the Counties of <hi>Clare</hi> and <hi>Kerry,</hi> apart from the Troops that are Commanded by General <hi>Ginckle,</hi> until they can be shipped; and within their Quarters, they shall pay for every thing, except Forrage, and Pasture for their Hor<g ref="char:EOLhyphen"/>ses, which shall be furnished <hi>gratis.</hi>
+                     </p>
+                  </div>
+                  <div n="13" type="article">
+                     <head>XIII.</head>
+                     <p>Those of the <hi>Garrison</hi> of <hi>Sligo,</hi> that are joyn'd to the <hi>Irish</hi> Ar<g ref="char:EOLhyphen"/>my, shall have the Benefit of this Capitulation; and Orders shall be sent to them that are to convey them up, to bring them hither to <hi>Lymerick</hi> the shortest way.</p>
+                  </div>
+                  <div n="14" type="article">
+                     <head>XIV.</head>
+                     <p>The <hi>Irish</hi> may have liberty to transport 900 Horse, including Horses for the Officers, which shall be transported <hi>gratis:</hi> And as for the Troopers that stay behind, they shall dispose of themselves as they shall think fit; giving up their Horses and Arms to such persons as the General shall appoint.</p>
+                  </div>
+                  <div n="15" type="article">
+                     <head>XVI.</head>
+                     <p>It shall be permitted to those that are appointed to take care for the subsistence of the Horse, that are willing to go into <hi>France,</hi> to buy Hay and Corn at the King's Rates, where ever they can find it, in the Quarters that are assign'd for them, without any Lett or Molestation; and to carry all necessary Provisions out of the City of <hi>Lymerick:</hi> And for this purpose, the General will fur<g ref="char:EOLhyphen"/>nish convenient Carriages for them, to the places where they shall be imbarked.</p>
+                  </div>
+                  <div n="16" type="article">
+                     <pb n="20" facs="tcp:46288:19"/>
+                     <head>XVI.</head>
+                     <p>It shall be lawful to make use of the Hay, preserved in the Stores of the County of <hi>Kerry,</hi> for the Horses that shall be imbarked; and if there be not enough, it shall be lawful to buy Hay and Oats, where-ever it shall be found, at the King's Rates.</p>
+                  </div>
+                  <div n="17" type="article">
+                     <head>XVII.</head>
+                     <p>That all Prisoners of War, that were in <hi>Ireland</hi> the 28th of <hi>September,</hi> shall be set at Liberty on both sides; and the General promises to use his Endeavours, that those that are in <hi>England</hi> and <hi>Flanders,</hi> shall be set at liberty also.</p>
+                  </div>
+                  <div n="18" type="article">
+                     <head>XVIII.</head>
+                     <p>The General will cause Provisions and Medicines to be furnish<g ref="char:EOLhyphen"/>ed to the sick and wounded Officers, Troopers, Dragoons, and Souldiers of the <hi>Irish</hi> Army, that cannot pass into <hi>France</hi> at the first imbarkment; and after they are cured, will order them Ships to pass into <hi>France,</hi> if they are willing to go.</p>
+                  </div>
+                  <div n="19" type="article">
+                     <head>XIX.</head>
+                     <p>That at the signing hereof, the General will send a Ship express to <hi>France;</hi> and that besides, he will furnish two small Ships of those that are now in the River of <hi>Lymerick,</hi> to transport two persons into <hi>France,</hi> that are to be sent to give notice of this Trea<g ref="char:EOLhyphen"/>ty; and that the Commanders of the said Ships shall have or<g ref="char:EOLhyphen"/>ders to put a Shore at the next part of <hi>France,</hi> where they shall make.</p>
+                  </div>
+                  <div n="20" type="article">
+                     <head>XX.</head>
+                     <p>That all those of the said Troops, Officers and others, of what Character soever, that would pass into <hi>France,</hi> shall not be stopt upon the Account of Debt, or any other Pretext.</p>
+                  </div>
+                  <div n="21" type="article">
+                     <head>XXI.</head>
+                     <p>If after Signing this present Treaty, and before the Arrival of
+<pb n="21" facs="tcp:46288:19"/>the Fleet, a <hi>French</hi> Packet-Boat, or other Transport-Ship, shall ar<g ref="char:EOLhyphen"/>rive from <hi>France,</hi> in any other part of <hi>Ireland,</hi> the General will order a Pass-port, not only for such as must go on Board the said Ships, but to the Ships, to come to the nearest Port, to the place where the Troops to be Transported shall be quartered.</p>
+                  </div>
+                  <div n="22" type="article">
+                     <head>XXII.</head>
+                     <p>That after the Arrival of the said Fleet, there shall be free Communication and Passage between it, and the Quarters of the abovesaid Troops; and especially, for all those that have Passes from the Chief Commanders of the said Fleet, or from Monsieur <hi>Tumeron,</hi> the Intendant.</p>
+                  </div>
+                  <div n="23" type="article">
+                     <head>XXIII.</head>
+                     <p>In consideration of the present Capitulation, the two Towns of <hi>Lymerick</hi> shall be delivered, and put into the Hands of the Gene<g ref="char:EOLhyphen"/>ral, or any other Person he shall appoint, at the Time and Days hereafter specified, <hi>viz.</hi> the <hi>Irish</hi> Town, except the Magazines and Hospital, on the Day of the Signing of these present Arti<g ref="char:EOLhyphen"/>cles; and as for the <hi>English</hi> Town, it shall remain, together with the Island, and the free Passage of <hi>Thomond-Bridge,</hi> in the hands of those of the <hi>Irish</hi> Army that are now in the Garrison, or that shall hereafter come from the Counties of <hi>Cork, Clare, Kerry, Sligo,</hi> and other Places above-mentioned, until there shall be con<g ref="char:EOLhyphen"/>venience found for their Transportation.</p>
+                  </div>
+                  <div n="24" type="article">
+                     <head>XXIV.</head>
+                     <p>And to prevent all disorders that may happen between the Garrison, that the General shall place in the <hi>Irish-Town,</hi> which shall be delivered to him, and the <hi>Irish</hi> Troopers that shall remain in the <hi>English-Town,</hi> and the Island, which they may do, until the Troops to be imbarked on the first 50 Ships shall be gone for <hi>France,</hi> and no longer; they shall intrench themselves on both sides, to hinder the Communication of the said Garrisons: and
+<pb n="22" facs="tcp:46288:20"/>it shall be prohibited on both sides, to offer any thing that is of<g ref="char:EOLhyphen"/>fensive; and the Parties offending, shall be punished on either side.</p>
+                  </div>
+                  <div n="25" type="article">
+                     <head>XXV.</head>
+                     <p>That it shall be lawful for the said Garrison to march out all at once, or at different times, as they can be imbarked, with Arms, Baggage, Drums beating, Match lighted at both ends, Bullet in mouth, Colours flying, six Brass-Guns, such as the Besieged will choose, two Mortar-Pieces, and half the Ammunition that is now in the Magazines of the said Place: And for this purpose, an In<g ref="char:EOLhyphen"/>ventory of all the Ammunition in the Garrison, shall be made in the presence of any person that the General shall appoint, the next day after these present Articles shall be Signed.</p>
+                  </div>
+                  <div n="26" type="article">
+                     <head>XXVI.</head>
+                     <p>All the Magazines of Provisions shall remain in the hands of those that are now employed to take care of the same, for the subsistence of those of the <hi>Irish</hi> Army that will pass into <hi>France:</hi> And if there shall not be sufficient in the Stores, for the support of the said Troops, whilst they stay in this Kingdom, and are cros<g ref="char:EOLhyphen"/>sing the Seas, that, upon giving up an Account of their Numbers, the General will furnish them with sufficient Provisions, at the King's Rates; and that there shall be a free Market at <hi>Lymerick,</hi> and other Quarters, where the said Troops shall be: And in case any Provision shall remain in the Magazines of <hi>Lymerick,</hi> when the Town shall be given up, it shall be valued, and the Price de<g ref="char:EOLhyphen"/>ducted out of what is to be paid for the Provisions to be furnish<g ref="char:EOLhyphen"/>ed to the Troops on Shipboard.</p>
+                  </div>
+                  <div n="27" type="article">
+                     <head>XXVII.</head>
+                     <p>That there shall be a Cessation of Arms at Land, as also at Sea, with respect to the Ships, whether <hi>English, Dutch,</hi> or <hi>French,</hi> design'd for the Transportation of the said Troops, until they shall be return'd to their respective Harbours; and that on both
+<pb n="23" facs="tcp:46288:20"/>sides, they shall be furnished with sufficient Pass-ports, both for Ships and Men: And if any Sea Commander, or Captain of a Ship, or any Officer, Trooper, Dragoon, Souldier, or any other Person, shall act contrary to this Cessation, the Persons so acting, shall be punished on either side, and Satisfaction shall be made for the wrong that is done; and Officers shall be sent to the Mouth of the River of <hi>Lamerick,</hi> to give notice to the Commanders of the <hi>English</hi> and <hi>French</hi> Fleets, of the present conjuncture, that they may observe the Cessation of Arms accordingly.</p>
+                  </div>
+                  <div n="28" type="article">
+                     <head>XXVIII.</head>
+                     <p>That for the Security of the Execution of this present Capi<g ref="char:EOLhyphen"/>tulation, and of each Article therein contain'd, the Besieged shall give the following Hostages — And the General shall give—</p>
+                  </div>
+                  <div n="29" type="article">
+                     <head>XXIX.</head>
+                     <p>If before this Capitulation is fully executed, there happens any change in the Government, or Command of the Army, which is now Commanded by General <hi>Ginckle;</hi> all those that shall be ap<g ref="char:EOLhyphen"/>pointed to Command the same, shall be obliged to observe and execute what is specified in these Articles, or cause it to be execu<g ref="char:EOLhyphen"/>ted punctually; and shall not act contrary on any Account.</p>
+                  </div>
+                  <closer>
+                     <dateline>
+                        <date>
+                           <hi>Octob.</hi> 91.</date>
+                     </dateline>
+                     <signed>Baron De Ginckle.</signed>
+                  </closer>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>
